@@ -1,5 +1,5 @@
 package src.java.template;
-public class MessageClient
+public class MessageClient // extends TestCase
 {
     public static void main(String args[])
     {
