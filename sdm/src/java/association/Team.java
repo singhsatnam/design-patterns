@@ -5,10 +5,10 @@ import java.util.List;
 
 public class Team
 {
-    List<Player> doublesTeam = new ArrayList<Player>();
+    List<Player> doublesTeam = new ArrayList<Player>(); // Should bot be plural, or should be "players"
     Team(Player player1, Player player2)
     {
-        this.doublesTeam.add(player1);
+        this.doublesTeam.add(player1); // Should check for same player added twice?
         this.doublesTeam.add(player2);
     }
     void showAll()
