@@ -10,7 +10,7 @@ public class AggregationTest
         team.showAll();
         team = null;
         System.out.println("Team deleted.\n");
-        fed.showAll();
+        fed.showAll(); // Why not show()?
         jo.showAll();
     }
 }
