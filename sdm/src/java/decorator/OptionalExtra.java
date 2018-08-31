@@ -1,8 +1,8 @@
 package src.java.decorator;
 
-public abstract class OptionalExtra implements ICar
+public abstract class OptionalExtra implements ICar // Is an OptionalExtra really a ICar?
 {
-    ICar newPurchase;
+    ICar newPurchase; // Why "newPurchase"? Why not "decoratedCar"?
     public OptionalExtra(ICar aCar)
     {
         this.newPurchase = aCar;
