@@ -1,8 +1,8 @@
 package src.java.association;
 
-public class Player
+public class Player // Should be subclass of Person
 {
-    String name, country;
+    String name, country; // Visibility
     Player(String name, String country)
     {
         this.name = name;
