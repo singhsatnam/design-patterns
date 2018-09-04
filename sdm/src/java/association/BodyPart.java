@@ -11,7 +11,7 @@ abstract class BodyPart
         print(name + "received");
         this.name = name;
     }
-    private String getName()
+    protected String getName()
     {
         print(this.name);
         return this.name;
