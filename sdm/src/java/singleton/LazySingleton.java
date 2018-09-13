@@ -2,8 +2,8 @@ package singleton;
 
 import java.util.Random;
 
-public class LazySingleton {
-    int behaviour;
+public class LazySingleton { // Lazy and broken!
+    int behaviour; // Visibility
     private static LazySingleton new_singleton = null;
     private LazySingleton()
     {
