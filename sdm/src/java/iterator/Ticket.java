@@ -14,6 +14,6 @@ class Ticket implements Iterable<Integer>
     }
     public Iterator<Integer> iterator()
     {
-        return new TicketIterator(0, totalTickets);
+        return new TicketIterator(0, totalTickets); // Not here!
     }
 }
