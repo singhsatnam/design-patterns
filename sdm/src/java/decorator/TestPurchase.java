@@ -4,10 +4,12 @@ public class TestPurchase
 {
     public static void main(String args[])
     {
-        SuperCar superCar = new SuperCar();
-        superCar.makeNewPurchase("sound_pack");
+        ICar superCar = new ActiveExhausts(new DynamicSpoiler(new SuperCar()));
         superCar.showPurchase();
-        superCar.makeNewPurchase("active_body_kit ");
-        superCar.showPurchase();
+//        superCar.addOption("sound_pack");
+//        superCar.showPurchase();
+//        superCar.addOption("active_body_kit ");
+//        superCar.showPurchase();
+
     }
 }

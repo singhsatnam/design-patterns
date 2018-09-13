@@ -1,15 +1,17 @@
 package src.java.decorator;
 
-public class ActiveExhausts extends OptionalExtra
+import static src.java.utilities.Utilities.print;
+
+public class ActiveExhausts extends AbstractOption
 {
 
-    public ActiveExhausts(ICar aCar) {
-        super(aCar);
+    public ActiveExhausts(ICar car) {
+        super(car);
     }
 
-    @Override
-    public void showCar() {
-        super.showCar();
-        System.out.println(" Active exhausts");
+    public void showPurchase()
+    {
+        super.showPurchase();
+        print("Active Exhausts");
     }
 }

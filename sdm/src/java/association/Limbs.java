@@ -1,13 +1,14 @@
 package src.java.association;
 
-public class Limbs {
-    int count;
-    Limbs(int count)
+public class Limbs extends BodyPart
+{
+    private String name;
+    Limbs(String name)
     {
-        this.count = count;
+        super(name);
     }
-    void showAll()
+    public String getName()
     {
-        System.out.println("Limbs count: " + count);
+        return this.name;
     }
 }

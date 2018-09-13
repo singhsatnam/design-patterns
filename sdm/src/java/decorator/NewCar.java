@@ -1,13 +1,9 @@
 package src.java.decorator;
 
-public class NewCar implements ICar
+abstract class NewCar implements ICar
 {
-
-    public ICar addOption() {
-        return this;
-    }
-
-    public void showCar() {
+    public void showPurchase() {
         System.out.println("You have chosen these optional extras:");
     }
+    protected abstract void addOption(String option);
 }

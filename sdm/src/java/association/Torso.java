@@ -1,14 +1,14 @@
 package src.java.association;
 
-public class Torso
+public class Torso extends BodyPart
 {
-    int count;
-    Torso(int count)
+    private String name;
+    Torso(String name)
     {
-        this.count = count;
+        super(name);
     }
-    void showAll()
+    public String getName()
     {
-        System.out.println("Torso count: " + count);
+        return this.name;
     }
 }
