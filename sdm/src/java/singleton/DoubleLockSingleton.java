@@ -3,12 +3,12 @@ package singleton;
 import java.util.Random;
 
 public class DoubleLockSingleton {
-    int behaviour;
-    private static DoubleLockSingleton new_singleton = null;
+    int behaviour; // Private and final?
+    private static DoubleLockSingleton new_singleton = null; // NewSingleton
     private DoubleLockSingleton()
     {
-        Random rand = new Random();
-        behaviour = rand.nextInt(50);
+        Random rand = new Random(); // rand is unnecessary
+        behaviour = rand.nextInt(50); // this.behaviour
     }
     public static DoubleLockSingleton getInstance()
     {
