@@ -1,4 +1,4 @@
-package src.java.singleton;
+package singleton;
 import static src.java.utilities.Utilities.*;
 public class Test {
     public static void main(String args[])

@@ -1,4 +1,4 @@
-package src.java.observer;
+package observer;
 public interface Subject {
     public void registerNewObserver(CustomObserver o);
     public void removeObserver(CustomObserver o);

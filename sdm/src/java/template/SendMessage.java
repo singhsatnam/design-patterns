@@ -1,4 +1,4 @@
-package src.java.template;
+package template;
 
 public abstract class SendMessage
 {

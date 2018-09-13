@@ -1,4 +1,4 @@
-package src.java.singleton;
+package singleton;
 import java.util.Random;
 
 public class Singleton {

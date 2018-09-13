@@ -1,4 +1,4 @@
-package src.java.template;
+package template;
 
 import static src.java.utilities.Utilities.print;
 

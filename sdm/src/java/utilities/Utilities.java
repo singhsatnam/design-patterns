@@ -1,4 +1,4 @@
-package src.java.utilities;
+package utilities;
 
 public class Utilities {
     public static void print(String s)

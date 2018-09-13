@@ -1,4 +1,4 @@
-package src.java.factory;
+package factory;
 import static src.java.utilities.Utilities.print;
 public interface ISort
 {

@@ -1,4 +1,4 @@
-package src.java.template;
+package template;
 
 public class TemplateClient
 {

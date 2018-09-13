@@ -1,4 +1,4 @@
-package src.java.factory;
+package factory;
 
 public class BubbleSortFactory implements AbstractSortFactory
 {
