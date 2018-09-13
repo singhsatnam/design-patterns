@@ -1,8 +1,8 @@
 package template;
 
-public abstract class SendMessage
+public abstract class SendMessage // Message
 {
-    public final void sendMessage()
+    public final void sendMessage() // send()
     {
         serializeMessage();
         makeHTTPRequest();
@@ -11,5 +11,5 @@ public abstract class SendMessage
     protected abstract void serializeMessage();
     protected abstract void makeHTTPRequest();
     protected abstract void verifyResponse();
-
+// Format/Layout
 }
