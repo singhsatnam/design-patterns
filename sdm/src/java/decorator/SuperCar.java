@@ -1,4 +1,4 @@
-package src.java.decorator;
+package decorator;
 
 public class SuperCar extends NewCar
 {

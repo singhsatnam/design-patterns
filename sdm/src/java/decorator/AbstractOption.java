@@ -1,4 +1,4 @@
-package src.java.decorator;
+package decorator;
 
 abstract class AbstractOption implements ICar{
     protected ICar car;

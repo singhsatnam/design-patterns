@@ -1,4 +1,4 @@
-package src.java.decorator;
+package decorator;
 
 interface ICar {
     void showPurchase();

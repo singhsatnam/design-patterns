@@ -1,5 +1,4 @@
-package src.java.association;
-
+package association;
 public class AggregationTest
 {
     public static void main(String args[])

@@ -1,4 +1,4 @@
-package src.java.association;
+package association;
 
 import java.util.ArrayList;
 import java.util.List;

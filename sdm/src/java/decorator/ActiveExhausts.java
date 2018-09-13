@@ -1,4 +1,4 @@
-package src.java.decorator;
+package decorator;
 
 import static src.java.utilities.Utilities.print;
 

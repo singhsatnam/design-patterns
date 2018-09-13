@@ -1,4 +1,4 @@
-package src.java.association;
+package association;
 
 class Head extends BodyPart
 {

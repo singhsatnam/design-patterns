@@ -1,4 +1,4 @@
-package src.java.decorator;
+package decorator;
 
 abstract class NewCar implements ICar
 {

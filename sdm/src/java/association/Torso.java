@@ -1,4 +1,4 @@
-package src.java.association;
+package association;
 
 public class Torso extends BodyPart
 {

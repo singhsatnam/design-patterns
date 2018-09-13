@@ -1,4 +1,4 @@
-package src.java.association;
+package association;
 import static src.java.utilities.Utilities.print;
 public class CompositionTest
 {
