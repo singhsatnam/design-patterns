@@ -1,15 +1,15 @@
 package src.java.decorator;
 
-public class DynamicSpoiler extends OptionalExtra
+import static src.java.utilities.Utilities.print;
+
+public class DynamicSpoiler extends AbstractOption
 {
 
-    public DynamicSpoiler(ICar aCar) {
-        super(aCar);
+    public DynamicSpoiler(ICar car) {
+        super(car);
     }
-
-    @Override
-    public void showCar() {
-        super.showCar();
-        System.out.println(" Dynamic Spoiler");
+    public void showPurchase() {
+        super.showPurchase();
+        print("Dynamic Spoilers");
     }
 }
