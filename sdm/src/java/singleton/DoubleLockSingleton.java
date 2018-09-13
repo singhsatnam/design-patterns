@@ -3,8 +3,8 @@ package singleton;
 import java.util.Random;
 
 public class DoubleLockSingleton {
-    int behaviour;
-    private static DoubleLockSingleton new_singleton = null;
+   private final int behaviour;
+    private static DoubleLockSingleton newSingleton;
     private DoubleLockSingleton()
     {
         Random rand = new Random();
@@ -12,16 +12,20 @@ public class DoubleLockSingleton {
     }
     public static DoubleLockSingleton getInstance()
     {
-        if(new_singleton == null)
+        if(newSingleton == null)
         {
             synchronized (DoubleLockSingleton.class)
             {
-                if(new_singleton == null)
+                if(newSingleton == null)
                 {
-                    new_singleton = new DoubleLockSingleton();
+                    newSingleton = new DoubleLockSingleton();
                 }
             }
         }
-        return new_singleton;
+        return newSingleton;
+    }
+    protected int getBehaviour()
+    {
+        return this.behaviour;
     }
 }

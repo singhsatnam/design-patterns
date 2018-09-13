@@ -1,7 +1,7 @@
 package association;
 
 
-import static src.java.utilities.Utilities.print;
+import static utilities.Utilities.print;
 
 abstract class BodyPart
 {

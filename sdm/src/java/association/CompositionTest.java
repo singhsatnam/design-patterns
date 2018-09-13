@@ -1,5 +1,5 @@
 package association;
-import static src.java.utilities.Utilities.print;
+import static utilities.Utilities.print;
 public class CompositionTest
 {
     public static void main(String args[])

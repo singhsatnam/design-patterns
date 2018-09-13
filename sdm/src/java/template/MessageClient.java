@@ -1,11 +1,13 @@
 package template;
-public class MessageClient
+import junit.framework.TestCase;
+
+public class MessageClient extends TestCase
 {
     public static void main(String args[])
     {
         SlackMessage someSlackMessage = new SlackMessage();
-        someSlackMessage.sendMessage();
+        someSlackMessage.send();
         SkypeMessage someSkypeMessage = new SkypeMessage();
-        someSkypeMessage.sendMessage();
+        someSkypeMessage.send();
     }
 }

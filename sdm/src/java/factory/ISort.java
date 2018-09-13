@@ -1,5 +1,5 @@
 package factory;
-import static src.java.utilities.Utilities.print;
+import static utilities.Utilities.print;
 public interface ISort
 {
     public void sort();

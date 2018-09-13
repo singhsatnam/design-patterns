@@ -3,7 +3,7 @@ package singleton;
 import java.util.Random;
 
 public class SynchronizedLazySingleton {
-    int behaviour;
+    private final int behaviour;
     private SynchronizedLazySingleton()
     {
         Random rand = new Random();
@@ -20,5 +20,9 @@ public class SynchronizedLazySingleton {
             }
         }
         return new_singleton;
+    }
+    protected int getBehaviour()
+    {
+        return this.behaviour;
     }
 }

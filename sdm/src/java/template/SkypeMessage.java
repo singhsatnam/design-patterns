@@ -1,8 +1,8 @@
 package template;
 
-import static src.java.utilities.Utilities.print;
+import static utilities.Utilities.print;
 
-public class SkypeMessage extends SendMessage
+public class SkypeMessage extends Message
 {
     protected void serializeMessage() {
         print("Message serialized and confirms to Skype format");

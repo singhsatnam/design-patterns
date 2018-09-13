@@ -2,9 +2,9 @@ package association;
 
 import java.util.ArrayList;
 import java.util.List;
-import src.java.utilities.Range;
+import utilities.Range;
 
-import static src.java.utilities.Utilities.print;
+import static utilities.Utilities.print;
 
 public class Person
 {

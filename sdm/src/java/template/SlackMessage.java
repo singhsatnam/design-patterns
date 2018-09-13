@@ -1,8 +1,7 @@
 package template;
-import static src.java.utilities.Utilities.print;
-public class SlackMessage extends SendMessage
+import static utilities.Utilities.print;
+public class SlackMessage extends Message
 {
-
     protected void serializeMessage() {
         print("Message serialized and confirms to Slack format");
     }

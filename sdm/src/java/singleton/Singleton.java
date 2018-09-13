@@ -2,7 +2,7 @@ package singleton;
 import java.util.Random;
 
 public class Singleton {
-    int behaviour;
+    private final int behaviour;
     private static final Singleton new_singleton = new Singleton();
     private Singleton()
     {
@@ -12,5 +12,9 @@ public class Singleton {
     public static Singleton getInstance()
     {
         return new_singleton;
+    }
+    protected int getBehaviour()
+    {
+        return this.behaviour;
     }
 }

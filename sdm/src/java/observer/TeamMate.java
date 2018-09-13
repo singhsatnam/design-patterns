@@ -2,7 +2,7 @@ package observer;
 
 import java.util.Observable;
 
-import static src.java.utilities.Utilities.print;
+import static utilities.Utilities.print;
 
 public class TeamMate implements CustomObserver {
 

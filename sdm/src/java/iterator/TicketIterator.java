@@ -1,5 +1,4 @@
 package iterator;
-
 import java.util.NoSuchElementException;
 
 public class TicketIterator implements ITicketIterator {

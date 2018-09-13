@@ -2,8 +2,9 @@ package singleton;
 
 import java.util.Random;
 
-public class LazySingleton {
-    int behaviour;
+public class LazySingleton
+{
+    private final int behaviour;
     private static LazySingleton new_singleton = null;
     private LazySingleton()
     {
@@ -17,5 +18,9 @@ public class LazySingleton {
             new_singleton = new LazySingleton();
         }
         return new_singleton;
+    }
+    protected int getBehaviour()
+    {
+        return this.behaviour;
     }
 }
