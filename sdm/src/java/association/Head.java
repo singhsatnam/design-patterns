@@ -1,14 +1,13 @@
 package src.java.association;
 
-public class Head
+class Head extends BodyPart
 {
-    int count;
-    Head(int count)
+    Head(String name)
     {
-        this.count = count;
+        super(name);
     }
-    void showAll()
+    public String getName()
     {
-        System.out.println("Head count: " + count);
+        return super.getClass().getName();
     }
 }
