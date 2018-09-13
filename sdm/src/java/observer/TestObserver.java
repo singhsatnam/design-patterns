@@ -4,7 +4,7 @@ public class TestObserver {
     public static void main(String args[])
     {
         //Creating an observable subject
-        SlackGroup ptidej = new SlackGroup("Pti-dej");
+        SlackGroup ptidej = new SlackGroup("Ptidej");
 
         //Lets create some observers
         TeamMate person1 = new TeamMate("Batman");
